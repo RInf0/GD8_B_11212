@@ -58,12 +58,13 @@
                                 <div class="form-group col-md-12">
                                     <label for="tipe" class="font-weight-bold">Movie</label>
                                     <select class="form-select" name="id_movie" aria-label="Default select example">
-                                        <option selected>Pilih Movie</option>
-                                            @forelse($movie as $movie)
-                                                @php
-                                                $isSelected = (old('id_movie', $ticket->id_movie) == $movie->id) ? 'selected' : '';
-                                                @endphp
-                                                <option value="{{ $movie->id }}" {{$isSelected}}>{{ $movie->title }}</option>
+                                        <option value="{{$ticket->id}}" selected>
+                                            {{old('id_movie', $ticket->movie->title)}}
+                                        </option>
+                                            @forelse($movie as $item)
+                                                <option value="{{ $item->id }}">
+                                                    {{ $item->title }}
+                                                </option>
                                                 @empty
                                             @endforelse
                                     </select>

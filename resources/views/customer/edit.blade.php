@@ -68,7 +68,7 @@
                                 <div class="form-group col-md-6">
                                 <label class="font-weight-bold">Ticket</label>
                                     <select class="form-select" aria-label="Default select example" name="id_ticket">
-                                        <option value="{{$customer->ticket->id}}" selected>Pilih Ticket
+                                        <option value="{{$customer->ticket->id}}" selected>
                                             {{old('id_ticket', $customer->ticket->movie->title  . '  ('. $customer->ticket->class . ':  ' . $customer->ticket->price . ')' )}}
                                         </option>
                                         @forelse ($ticket as $item)

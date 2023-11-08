@@ -38,7 +38,7 @@
                                         <th class="text-center">Poster</th>
                                         <th class="text-center">Title</th>
                                         <th class="text-center">Director</th>
-                                        <th class="textcenter">Duration/min</th>
+                                        <th class="text-center">Duration/min</th>
                                         <th class="text-center">Aksi</th>
                                     </tr>
                                 </thead>

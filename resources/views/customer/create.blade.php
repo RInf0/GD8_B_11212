@@ -92,7 +92,7 @@
                                 @enderror
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-md btnprimary">SIMPAN</button>
+                            <button type="submit" class="btn btn-sm btn-primary">SIMPAN</button>
                         </form>
                     </div>
                     <!-- /.card-body -->

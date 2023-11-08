@@ -38,7 +38,7 @@
                                         <th class="text-center">Nama Customer</th>
                                         <th class="text-center">Email</th>
                                         <th class="text-center">No Telepon</th>
-                                        <th class="textcenter">Quantity Ticket</th>
+                                        <th class="text-center">Quantity Ticket</th>
                                         <th class="text-center">Class Ticket</th>
                                         <th class="textcenter">Poster Film</th>
                                         <th class="text-center">Aksi</th>
