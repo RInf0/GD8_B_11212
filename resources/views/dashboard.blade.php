@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initialscale=1">
-    <title>GD8_X_YYYYY</title>
+    <title>UGD8_X_YYYYY</title>
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
     <!-- Font Awesome Icons -->
@@ -63,6 +63,12 @@
                                 <p> Ticket</p>
                             </a>
                         </li>
+                        <li class="nav-item">
+                            <a href="{{ url('customer') }}" class="nav-link">
+                                <i class="fa-solid fa-user"></i>
+                                <p> Customer</p>
+                            </a>
+                        </li>
                     </ul>
                 </nav>
                 <!-- /.sidebar-menu -->
@@ -77,7 +83,7 @@
         <!-- Main Footer -->
         <footer class="main-footer">
             <!-- To the right -->
-            <div class="float-right d-none d-sm-inline"> GD8_X_YYYYY</div>
+            <div class="float-right d-none d-sm-inline"> UGD8_X_YYYYY</div>
             <!-- Default to the left -->
             <strong>Copyright &copy; {{ date('Y') }} <a href="#">AdminLTE.io</a>. </strong> All rights reserved.
         </footer>

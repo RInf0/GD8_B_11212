@@ -13,9 +13,9 @@ return new class extends Migration
     {
         Schema::create('tickets', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('i_movie')->constrained('movies')->onDelete('cascade');
+            $table->foreignId('id_movie')->constrained('movies')->onDelete('cascade');
             $table->string('class');
-            $table->string('price');
+            $table->integer('price');
             $table->timestamps();
         });
     }
